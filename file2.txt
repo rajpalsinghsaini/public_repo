@@ -1,3 +1,4 @@
 this is file 2
 changes in file for commiting
 third line added
+fourth line added
