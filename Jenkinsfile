@@ -75,7 +75,7 @@ pipeline {
 
                             //git push https://$GIT_USERNAME:$GIT_PASSWORD@github.com/rajpalsinghsaini/public_repo.git main
 
-                            git pull origin main
+                            git pull https://$GIT_USERNAME:$GIT_PASSWORD@github.com/rajpalsinghsaini/public_repo.git main
                         '''
                     }
                 }
