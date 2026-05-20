@@ -1,1 +1,2 @@
 Added new text
+New line in newfile1.txt
