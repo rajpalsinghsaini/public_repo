@@ -67,13 +67,15 @@ pipeline {
                             git config user.email "$GIT_EMAIL"
                             git config user.name "$GIT_NAME"
 
-                            git status
+                            // git status
 
-                            git add .
+                            // git add .
 
-                            git diff --cached --quiet || git commit -m "Code pushed from Jenkins"
+                            // git diff --cached --quiet || git commit -m "Code pushed from Jenkins"
 
-                            git push https://$GIT_USERNAME:$GIT_PASSWORD@github.com/rajpalsinghsaini/public_repo.git main
+                            //git push https://$GIT_USERNAME:$GIT_PASSWORD@github.com/rajpalsinghsaini/public_repo.git main
+
+                            git pull origin main
                         '''
                     }
                 }
