@@ -1,2 +1,2 @@
 Contents added in newfile3.txt file
-Second line also added updated 6
+Second line also added updated 7
